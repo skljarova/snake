@@ -3,32 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication1
+namespace змейка
 {
-    class HorizontalLine
+    class HLine : FR
     {
-        List<Point> pList;
 
-        public HorizontalLine(int xLeft, int xRight, int y, char sym)
+
+        public HLine(int xl, int xr, int y, char sym)
         {
-            pList = new List<Point>();
+            plist = new List<Point>();
 
-            for (int x = xLeft; x <= xRight; x++)
+            for (int x = xl; x <= xr; x++)
             {
                 Point p = new Point(x, y, sym);
-                pList.Add(p);
- 
+                plist.Add(p);
             }
         }
 
-        public void Draw()
-        {
-            foreach (Point p in pList)
-            {
-                p.Draw();
-            }
-        }
+
 
     }
-
 }

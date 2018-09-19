@@ -3,32 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication1
+namespace змейка
 {
-        class VerticalLine
+    class VLine : FR
+    {
+
+
+        public VLine(int yu, int yd, int x, char sym)
         {
-            List<Point> pList;
+            plist = new List<Point>();
 
-            public VerticalLine(int x, int yUp, int yDown, char sym)
+            for (int y = yu; y <= yd; y++)
             {
-                pList = new List<Point>();
-
-                for (int y = yUp; y <= yDown; y++)
-                {
-                    Point p = new Point(x, y, sym);
-                    pList.Add(p);
-                }
-            }
-
-            public void Draw()
-            {
-                foreach (Point p in pList)
-                {
-
-                    p.Draw();
-                }
-
+                Point p = new Point(x, y, sym);
+                plist.Add(p);
             }
         }
-    }
 
+
+
+    }
+}

@@ -3,29 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication1
+namespace змейка
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(1, 3, '*');
-            p1.Draw();
+            HLine UL = new HLine(0, 78, 0, '+');
+            HLine DL = new HLine(0, 78, 24, '+');
+            VLine LL = new VLine(0, 24, 0, '+');
+            VLine RL = new VLine(0, 24, 78, '+');
 
-       
+            UL.Drow();
+            DL.Drow();
+            LL.Drow();
+            RL.Drow();
 
-            Point p2 = new Point(4, 5, '#');
-            p2.Draw();
 
-            HorizontalLine Line = new HorizontalLine(5, 10, 8, '+');
-            Line.Draw();
-
-            VerticalLine vline = new VerticalLine(5, 5, 10, '+');
-            vline.Draw();
+            Point p = new Point(4, 5, '*');
+            p.Draw();
 
 
             Console.ReadLine();
+
         }
+
+
+
 
     }
 }

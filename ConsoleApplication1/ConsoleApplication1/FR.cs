@@ -6,10 +6,10 @@ namespace змейка
 {
     class FR
     {
-        protected List<Point> plist;
+        protected List<Point> pList;
         public void Drow()
         {
-            foreach (Point p in plist)
+            foreach (Point p in pList)
                 p.Draw();
         }
     }

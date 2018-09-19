@@ -7,9 +7,11 @@ namespace змейка
 {
     class Snake : FR
     {
-        public Snake(Point tail, int length, Direction direction)
+        Direction direction;
+        public Snake(Point tail, int length, Direction _direction)
             
     {
+        direction = _direction;
         plist = new List<Point>();
         for (int i = 0; i < length; i++)
            
@@ -20,5 +22,23 @@ namespace змейка
         
         }
     }
+
+        internal void Move()
+        {
+            Point tail = plist.First();
+            plist.Remove(tail);
+            Point head = GetNextPoint();
+            plist.Add(head);
+
+            tail.Clear();
+            head.Draw();
+        }
+        public Point GetNextPoint()
+        {
+            Point head = plist.Last();
+            Point nextPoint = new Point(head);
+            nextPoint.Move(1, direction);
+            return nextPoint;
+        }
     }
 }

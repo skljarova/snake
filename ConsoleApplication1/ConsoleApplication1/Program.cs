@@ -24,7 +24,8 @@ namespace змейка
             p.Draw();
 
             Snake snake = new Snake(p, 4, Direction.RIGHT);
-            snake.Drow();  
+            snake.Drow();
+            snake.Move();
              Console.ReadLine();
 
         }

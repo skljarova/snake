@@ -2,3 +2,8 @@ C:\Users\Admin\Documents\GitHub\snake\snake.git\ConsoleApplication1\ConsoleAppli
 C:\Users\Admin\Documents\GitHub\snake\snake.git\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\Admin\Documents\GitHub\snake\snake.git\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 C:\Users\Admin\Documents\GitHub\snake\snake.git\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Сонька Няяя ~\Desktop\snake.git\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\Сонька Няяя ~\Desktop\snake.git\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Сонька Няяя ~\Desktop\snake.git\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Сонька Няяя ~\Desktop\snake.git\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Сонька Няяя ~\Desktop\snake.git\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
